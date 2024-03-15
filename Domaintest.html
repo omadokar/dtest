@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domian Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.jpg" type="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <img src="logo.jpg" alt="logo">
+        <a href="Domaintest.html" id="btone">Home</a>
+        <a href="#" id="bttwo">About</a>
+        <a href="#" id="btthree">Contact</a>
+        <button id="signup">Sign up <a href="D:\Domain Test\login-page\login-page\login.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+        <button id="login">Log in <a href="D:\Domain Test\login-page\login-page\login.html"><i class="fa-solid fa-arrow-right"></i></a></button>
+    </nav>
+    <img src="theme.jpg" id="theme">
+    <p id="one"><span>Know Your</span><span id="anime"> </span></p>
+    <div class="two">
+    <p id="two">Your domain, your way - find it here, find it now</p></div><a href="index.html">
+    <button class="begin">Take Test <i class="fa-solid fa-arrow-right" id="arrow"></i></button></a>
+        <footer>
+            <a href="#"><i class="fa-solid fa-id-badge"></i>Contact Us</a>
+            <a href="mailto:domaintest2024@gmail.com"><i class="fa-solid fa-envelope"></i>Email</a>
+            <a href="https://www.instagram.com/domain_test30?igsh=MTV2N2t3Z20xd3NsaA=="><i class="fa-brands fa-instagram"></i>Intagram</a>
+            <a href="#">Terms and Uses</a>
+            <div class="copyright">
+                <p>&copy; 2024 Domain Test.com. All rights reserved.</p>
+                <p class="owner">Website Owner : Shreyash Bhojane and Ombhushan Adokar</p>
+            </div>
+    </footer>
+    <script>
+        var theme=document.getElementById("theme");
+        theme.onclick=function(){
+            document.body.classList.toggle("dark-theme");
+        }
+        const text=document.querySelector("#anime");
+        const textLoad=()=>{
+            setTimeout(()=>{
+                text.textContent=" Domain";
+            },0);
+            setTimeout(()=>{
+                text.textContent=" Passion";
+            },3000);
+            setTimeout(()=>{
+                text.textContent=" Carrier";
+            },6000);
+        }
+        textLoad();
+        setInterval(textLoad,9000);
+    </script>
+</body>
+</html>
